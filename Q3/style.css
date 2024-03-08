@@ -1,0 +1,62 @@
+legend {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+label {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#inline {
+  display: inline-block;
+}
+
+legend {
+  text-align: centers;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+body {
+  padding: 20px;
+  margin: 10px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.str_styling {
+  margin-left: 33px;
+}
+
+.city_styling {
+  margin-left: 42px;
+}
+
+#app-table {
+  display: none;
+}
+
+table,
+th,
+tr,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+body {
+  background-color: bisque;
+  font-weight: bold;
+}
