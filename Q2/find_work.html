@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Work</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h3>&#128512; TalentHunt</h3>
+    </div>
+    <br />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="find_work.html">Find Work</a></li>
+        <li><a href="posttask.html">Post a Task</a></li>
+        <li><a href="social.html">Social Media</a></li>
+      </ul>
+    </nav>
+    <div style="text-align: center">
+      <h2>Find your Work</h2>
+      <div class="c">
+        <span class="box">
+          <label for="category">Category</label>
+          <select id="category" name="category">
+            <option value="" disabled selected>Select a category</option>
+            <option value="gd">Graphic Design</option>
+            <option value="wd">Web Development</option>
+            <option value="ds">Data Science</option>
+          </select>
+        </span>
+        <span class="box">
+          <label for="skills">Skills</label>
+          <input id="skills" type="text" />
+        </span>
+        <span class="box">
+          <label for="budget">Budget Range</label>
+          <select id="budget" name="budget">
+            <option value="" disabled selected>Select budget range</option>
+            <option value="1">$0 - $50</option>
+            <option value="2">$50 - $100</option>
+            <option value="3">$100 - $500</option>
+          </select>
+        </span>
+      </div>
+      <br />
+      <br />
+      <div>
+        <div class="box">
+          <h3>Job Type</h3>
+          <br />
+          <br />
+          <input type="radio" id="full-time" name="job-type" />
+          <label for="full-time">Full-time</label>
+          <input type="radio" id="part-time" name="job-type" />
+          <label for="part-time">Part-time</label>
+          <input type="radio" id="remote" name="job-type" />
+          <label for="remote">Remote</label>
+        </div>
+      </div>
+      <input type="submit" value="Find Work" class="button" />
+    </div>
+  </body>
+</html>
