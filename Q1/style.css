@@ -1,0 +1,116 @@
+#img_resume {
+  width: 200px;
+  height: 190px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+#inline {
+  background-color: rgb(38, 37, 37);
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  height: 180px;
+}
+
+#text_color {
+  color: rgb(255, 255, 255);
+}
+
+.education {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.dates {
+  font-family: "Roboto", sans-serif;
+  color: #999;
+  font-size: 13px;
+  margin-left: 90px;
+}
+
+.institute {
+  font-family: "Roboto", sans-serif;
+  color: #999;
+  font-size: 13px;
+  margin-right: 20px;
+}
+
+.section {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+
+.vertical-line {
+  position: absolute;
+  left: 51%;
+  top: 30%;
+  bottom: 40%;
+  width: 1px;
+  height: 69vh;
+  background-color: #010;
+}
+
+.font {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.first_date_education {
+  font-family: "Roboto", sans-serif;
+  color: #999;
+  font-size: 13px;
+  margin-left: 140px;
+}
+
+.first_date_work {
+  font-family: "Roboto", sans-serif;
+  color: #999;
+  font-size: 13px;
+  margin-left: 120px;
+}
+
+.date_work {
+  font-family: "Roboto", sans-serif;
+  color: #999;
+  font-size: 13px;
+  margin-left: 110px;
+}
+
+#list_circle {
+  list-style-type: circle;
+}
+
+#list_square {
+  list-style-type: square;
+}
+
+#linkedin_link {
+  text-decoration: none;
+  color: #5e5959;
+}
+
+#right_body {
+  left: 54%;
+  position: absolute;
+  top: 90%;
+  transform: translateY(-90%);
+}
+
+#info {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#body {
+  width: 50%;
+  height: 50%;
+}
+
+#obj {
+  margin-top: 22px;
+}
